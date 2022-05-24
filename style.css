@@ -1,0 +1,46 @@
+.ctm-navbar{
+    box-shadow: 0 2px  rgba(144, 144, 144, 0.168);
+}
+.ctm-row{
+    margin-top: 8rem;
+}
+.hero1-img{
+    width: 100%;
+}
+.col-lg-4 h2{
+    font-weight: 800;
+}
+.small-text{
+    font-size: x-small;
+}
+.normal-text{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.large-screen-footer{
+    padding: 8rem 3rem;
+    background-color: rgb(249, 249, 249);
+}
+.small-screen-footer{
+    padding: 4rem 0rem;
+    background-color: rgb(249, 249, 249);
+}
+.footer-list{
+    display: inline-block;
+    list-style: none;
+
+}
+.footer-list h6 ,.mb-ft-hd{
+    font-weight: 700;
+}
+.footer-logo-dsk{
+    width: 2rem;
+}
+.ft-dk-icon h4,.ft-dk-dwnld img
+,.ft-dk-last-stgs p,.footer-list-items{
+    cursor: pointer;
+}
+.footer-list-items{
+    list-style: none;
+    margin-bottom: 5px;
+}
