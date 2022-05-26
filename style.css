@@ -1,9 +1,29 @@
-.ctm-navbar{
+
+header{
     box-shadow: 0 2px  rgba(144, 144, 144, 0.168);
 }
+.header-logo{
+    width: 9rem;
+}
+
 .ctm-row{
     margin-top: 8rem;
 }
+.ctm-btn{
+    border: none;
+    
+}
+.ctm-btn:focus{
+    box-shadow: none;
+}
+.small-screen-logo{
+    width: 4rem;
+}
+.ctm-header-item{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
 .hero1-img{
     width: 100%;
 }
@@ -37,10 +57,16 @@
     width: 2rem;
 }
 .ft-dk-icon h4,.ft-dk-dwnld img
-,.ft-dk-last-stgs p,.footer-list-items{
+,.ft-dk-last-stgs p,.footer-list-items,.footer-logo-sm{
     cursor: pointer;
 }
 .footer-list-items{
     list-style: none;
     margin-bottom: 5px;
+}
+.footer-logo-sm{
+    width: 1.5rem;
+}
+.ft-sm-last-stgs{
+    font-size: .7rem;
 }
