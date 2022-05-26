@@ -44,13 +44,14 @@
             </li>
           </ul>
           <form class="d-flex mt-4">
-            <button class="btn btn-warning py-2 ">Order Now</button>
+            <button onmouseenter="openModal()" id="OrderNow" class="btn btn-warning py-2 ">Order Now</button>
           </form>
         </div>
       </div>
     </nav>
   </header>
 
+ 
   <!-- Small screen header -->
   <header class="d-block d-lg-none">
     <nav class="navbar navbar-expand-lg">
@@ -84,12 +85,46 @@
             </li>
           </ul>
           <form class="d-flex mt-4">
-            <button class="btn btn-warning py-2 ">Order Now</button>
+            <button onmouseenter="openModal()"  class="btn btn-warning py-2 " id="OrderNow" >Order Now</button>
           </form>
         </div>
       </div>
     </nav>
   </header>
+
+   <!-- Order Now Modal Box -->
+   <div class="px-5" id="modalBox">
+     <div>
+   <div class="orderNow">
+    <h2 id="closeModal"><i onmouseenter="closeModal()"  class="bi bi-x"></i></h2>
+     <h3>You're leaving McDonalds.com</h3>
+     <p class="pt-4">Please select a McDelivery partner</p>
+     <div class="container pt-5">
+       <div class="row">
+         <div class="col offset-1 p-2">
+           <img class="img-orderNow" src="https://s7d1.scene7.com/is/image/mcdonalds/UberEats" alt="">
+         </div>
+         <div class="col p-2">
+           <img class="img-orderNow" src="https://s7d1.scene7.com/is/image/mcdonalds/DoorDash" alt="">
+          </div>
+         <div class="col p-2">
+           <img class="img-orderNow" src="https://s7d1.scene7.com/is/image/mcdonalds/Grubhub" alt="">
+          </div>
+         <div class="col p-2">
+           <img class="img-orderNow" src="https://s7d1.scene7.com/is/image/mcdonalds/Postmates" alt="">
+          </div>
+          <p class="mt-5">
+            You are leaving McDonald’s to visit a site not hosted by McDonald’s. Please review the third-party’s privacy policy, accessibility policy, and terms. McDonald’s is not responsible for the content provided by third-party sites.</p>
+       </div>
+       <div class="row orderbtndiv">
+       <button class=" btn btn-outline-warning orderNowBtn mt-4">Cancel</button>
+       <button class=" btn btn-warning  orderNowBtn  mt-2">Continue</button>
+      </div>
+     </div>
+  </div>
+</div>
+</div>
+
     <section>
         <div class="container pt-5">
             <div class="row pt-5">

@@ -70,3 +70,37 @@ header{
 .ft-sm-last-stgs{
     font-size: .7rem;
 }
+.orderNow{
+    box-shadow: 0 0.125rem 1rem 0 rgb(0 0 0 / 8%), 0 1.3125rem 1.9375rem 0 rgb(0 0 0 / 50%);
+    background: #fff;
+    border-radius: 4px;
+    padding: 40px 70px;
+    z-index: 50;
+    padding: 3rem 5rem;
+
+}
+.orderNow h3{
+    text-align: center;
+    font-weight: 700;
+}
+.orderNow p{
+    text-align: center;
+}
+.img-orderNow{
+    width: 8rem;
+    transition: width 0.4s;
+}
+.img-orderNow:hover{
+    width: 9rem;
+}
+.orderNowBtn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.orderNow h2{
+    float: right;
+}
+#modalBox{
+    display: none;
+}
